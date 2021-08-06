@@ -1,0 +1,49 @@
+.nav-conten{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    width: max-content;
+    
+}
+
+.logo{
+    width: 70px;
+    
+}
+
+.toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+
+}
+
+.menu{
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.social{
+    display: flex;
+    list-style: none;
+    line-height: 60px;
+    font-size: 23px;
+    margin-left: 40px;
+}
+
+

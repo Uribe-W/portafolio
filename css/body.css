@@ -1,0 +1,13 @@
+body {
+    min-height: 100%;
+    background-color: #262626;
+    padding: 90px 25px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container > * {
+    box-shadow: -1px 1px 7px 0px black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+@import "commons.css";
+@import "body.css";
+@import "header.css";
+@import "nav.css";
+@import "main.css";
+@import "aside.css";
+@import "footer.css";
+
+
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template: 
+    "header" 
+    "main" 
+    "aside" 
+    "footer";
+}
+
+@media (max-width: 600px){
+    .header{
+        height: 60px;   
+    }
+
+    body {
+        padding-top: 70px;
+    }
+    
+    .logo{
+        width: 50px;
+        
+    }
+    
+    .menu{
+        flex-direction: column;
+        margin: 0;
+        background-color: #1A292D;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+        
+        
+    }
+    
+    .toggle{
+        display: block;
+    }
+
+    .menu_visible{
+        left: 0;
+    }
+    
+    .social{
+        margin: 0;
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width: 600px){
+    .grid-container{
+        grid-template:  
+        "header header" 
+        "aside  main" auto
+        "footer footer" 100px /
+         200px auto;   
+    }
+
+    
+}
+
+@media (min-width: 900px){
+    .grid-container{
+        grid-template:  
+        "header" 
+        "main" 
+        "aside"
+        "footer";
+        
+    }
+}
