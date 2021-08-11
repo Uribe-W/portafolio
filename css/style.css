@@ -63,6 +63,19 @@
         font-size: 17px;
     }
 
+    .conten{
+        flex-direction: column;
+        
+    }
+
+    .conten div:nth-child(2){
+        order: -1;
+    }
+
+    .left-conten{
+        margin-top: 30px;
+    }
+
 }
 
 @media (min-width: 600px){
@@ -73,8 +86,7 @@
         "footer footer" 100px /
          200px auto;   
     }
-
-    
+  
 }
 
 @media (min-width: 900px){
@@ -84,6 +96,5 @@
         "main" 
         "aside"
         "footer";
-        
     }
 }
