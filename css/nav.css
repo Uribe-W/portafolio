@@ -1,7 +1,7 @@
 .nav-conten{
     display: flex;
     justify-content: space-between;
-    max-width: 1080px;
+    max-width: 1800px;
     margin: 0px auto;
 }
 
@@ -43,7 +43,7 @@
     list-style: none;
     line-height: 60px;
     font-size: 23px;
-    margin-left: 40px;
+    margin-right: 40px;
 }
 
 

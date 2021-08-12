@@ -61,10 +61,11 @@
     .social{
         margin: 0;
         font-size: 17px;
+        
     }
 
     .conten{
-        flex-direction: column;
+        flex-wrap: wrap;
         
     }
 
@@ -72,8 +73,17 @@
         order: -1;
     }
 
-    .left-conten{
+    .left-conten, 
+    .right-conten{
         margin-top: 30px;
+        width: 45%;
+        padding: 10px;
+        margin: 5px ;
+    }
+
+    .center-conten img{
+        width: 75%;
+        
     }
 
 }
