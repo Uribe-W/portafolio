@@ -2,3 +2,27 @@
     grid-area: aside;
     background: dimgray;
 }
+
+.skils{
+    margin-top: 20px;
+}
+
+
+.tecnologys{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+    
+}
+
+.icon-tecn{
+    margin: 0px 10%;
+}
+
+.icon-tecn i{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
