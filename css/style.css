@@ -5,7 +5,8 @@
 @import "main.css";
 @import "aside.css";
 @import "footer.css";
-
+@import "section.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
 .grid-container{
@@ -13,14 +14,15 @@
     gap: 10px;
     grid-template: 
     "header" 
-    "main" 
+    "main"
     "aside" 
+    "section"
     "footer";
 }
 
-@media (max-width: 600px){
+@media (max-width: 899px){
     .header{
-        height: 60px;   
+        height: 70px;   
     }
 
     body {
@@ -88,23 +90,13 @@
 
 }
 
-@media (min-width: 600px){
-    .grid-container{
-        grid-template:  
-        "header header" 
-        "aside  main" auto
-        "footer footer" 100px /
-         200px auto;   
-    }
-  
-}
-
 @media (min-width: 900px){
     .grid-container{
         grid-template:  
         "header" 
         "main" 
         "aside"
+        "section"
         "footer";
     }
 }
