@@ -128,7 +128,23 @@
             </div>
         </div>
     </section>
-    <footer class="footer">footer</footer>
+    <footer class="footer">
+        <div class="conten-form">
+            <form action="send.php" method="POST" class="form">
+                <h3 class="welcome">Write me!</h3>
+                <input type="text" id="name" class="input" placeholder="Name" required />
+                <input type="email" id="emali" class="input" placeholder="Email" required />
+                <textarea name="message" id="message" placeholder="Message" class="input" required /></textarea>
+                <button type="submit" class="btn-submit">sentd</button>
+
+                <script type="text/javascript">
+                    copyright = new Date();
+                    update = copyright.getFullYear();
+                    document.write("© 2021 - " + update + " " + "  create by wilson uribe All rights reserved");
+                </script>
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>

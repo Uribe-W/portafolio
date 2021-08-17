@@ -1,4 +1,48 @@
 .footer{
     grid-area: footer;
-    background: forestgreen;
+    background: rgb(126, 148, 126);
+    position: relative;
+    display: flex;
+    
+    
 }
+
+
+.conten-form{
+    display: flex;
+    width: 70%;
+    height: auto;
+    margin: 15px auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.btn-submit{
+	width: 60%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 15px auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.input{
+	width: 100%;
+	padding:10px 0;
+	margin: 15px 0;
+    outline: none;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	background: transparent;
+    color:seashell;
+    font-size: 15px;
+    
+    
+} 
