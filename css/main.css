@@ -40,7 +40,13 @@
 
 
 
-.welcome,
-p{
-    color: white;
+.welcome
+h1,
+h2,
+h3{
+    color: rgb(68, 156, 68);
+}
+
+.welcome, p{
+    color: rgb(219, 236, 216);
 }

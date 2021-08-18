@@ -1,28 +1,68 @@
-.aside{
+.aside {
     grid-area: aside;
-    background: dimgray;
-}
-
-.skils{
-    margin-top: 20px;
+    background: linear-gradient(#262626, rgb(49, 80, 4), #262626);
 }
 
 
-.tecnologys{
+.skils {
+    margin: 20px;
+    color: rgb(219, 236, 216);
+}
+
+.tecnologys {
     list-style: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px 10px;
-    
+    color: white;
+    transition: all .25s;
+
 }
 
-.icon-tecn{
-    margin: 0px 10%;
+.icon-tecn {
+    margin: 5px 10%;
 }
 
-.icon-tecn i{
+.icon-tecn:hover{
+    transition: all .20s;
+    transform: translateY(-5px);
+
+}
+
+.icon-tecn i {
     font-size: 50px;
     margin-top: 20px;
 }
 
+.tecnologys p {
+    color: white;
+}
+
+.hm:hover{
+    color: #E65B25;
+}
+
+.css:hover{
+    color: #254BDD;
+}
+
+.bst:hover{
+    color: #733EBC;
+}
+
+.js:hover{
+    color: #FFB724;
+}
+
+.sql:hover{
+    color: #056A82;
+}
+
+.php:hover{
+    color: #7377AD;
+}
+
+.lv:hover{
+    color: #EE291D;
+}

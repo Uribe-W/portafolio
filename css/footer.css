@@ -1,6 +1,6 @@
 .footer{
     grid-area: footer;
-    background: rgb(126, 148, 126);
+    background: linear-gradient(#262626,rgb(49, 80, 4), #262626);
     position: relative;
     display: flex;
     
@@ -17,6 +17,7 @@
     padding: 10px;
     overflow: hidden;
     justify-content: center;
+	
 }
 
 .btn-submit{
@@ -25,13 +26,15 @@
 	cursor: pointer;
 	display: block;
 	margin: 15px auto;
-	background: #F3C693;
+	background: linear-gradient(rgb(219, 236, 216),rgb(49, 80, 4));
 	border: 0;
 	outline: none;
 	border-radius: 30px;
+	color: #262626;
+	font-size: 25px;
 }
 
-.input{
+.inpu{
 	width: 100%;
 	padding:10px 0;
 	margin: 15px 0;
@@ -39,10 +42,19 @@
 	border-left:0;
 	border-top:0;
 	border-right:0;
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid rgb(219, 236, 216);
 	background: transparent;
-    color:seashell;
+    color: seashell;
     font-size: 15px;
-    
+
     
 } 
+
+.inpu::placeholder { 
+    color: rgb(219, 236, 216);  
+}
+
+.form h3{
+	font-size: 500%;
+	color: rgb(219, 236, 216)	;
+}
