@@ -54,6 +54,11 @@
 }
 
 .form h3{
-	font-size: 500%;
-	color: rgb(219, 236, 216)	;
+	font-size: 400%;
+	color: rgb(219, 236, 216);
+}
+
+.copy{
+	margin-top: 70px;
+	color: rgb(219, 236, 216);
 }
