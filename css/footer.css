@@ -1,7 +1,6 @@
 .footer{
     grid-area: footer;
     background: linear-gradient(#262626,rgb(49, 80, 4), #262626);
-    position: relative;
     display: flex;
     
     

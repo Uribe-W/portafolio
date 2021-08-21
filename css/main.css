@@ -1,6 +1,7 @@
 .main{
     grid-area: main;
     background: #262626;
+    
 }
 
 .conten{
@@ -21,7 +22,7 @@
 }
 
 .right-conten p{
-    font-size: 300%;
+    font-size: 250%;
 }
 
 .center-conten img{
