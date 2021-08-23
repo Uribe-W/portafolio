@@ -23,12 +23,13 @@
 @media (max-width: 450px){
     .conten{
         flex-direction: column;
-    
+        
     }
 
     .left-conten,
     .right-conten{
         text-align: center;
+        width: 100% !important;
     }
 
     .cartas{
