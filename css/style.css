@@ -21,9 +21,16 @@
 }
 
 @media (max-width: 450px){
+
+    body {
+        padding: 0px 8px 0px;   
+    }
     .conten{
-        flex-direction: column;
-        
+        flex-direction: column;    
+    }
+
+    .grid-container{
+        gap: 5px;
     }
 
     .left-conten,
@@ -76,11 +83,11 @@
 
 @media (max-width: 899px){
     .header{
-        height: 70px;   
+        height: 60px;   
     }
 
     body {
-        padding-top: 70px;
+        padding-top: 55px;
     }
     
     .logo{
