@@ -15,6 +15,7 @@ if (isset($_POST) && !empty($_POST)) {
     mail($to,$subject,$message, $headers);
     echo "The email message was sent.";
 
+    return ('../index.html');
 }
 
 
