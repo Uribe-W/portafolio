@@ -34,6 +34,10 @@
         gap: 5px;
     }
 
+    .logo{
+        margin-right: 0;
+    }
+
     .left-conten,
     .right-conten{
         text-align: center;
@@ -92,7 +96,8 @@
     }
     
     .logo{
-        width: 50px;
+        width: 45px;
+        margin-right: 0;
         
     }
     
