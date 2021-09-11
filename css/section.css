@@ -29,6 +29,7 @@
 .cartas img{
     width: 330px;
     height: 220px;
+    margin-bottom: 15%;
 }
 .cartas h4{
     font-weight: 600;
