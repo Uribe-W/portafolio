@@ -15,7 +15,7 @@ menu.addEventListener("click", ()=>{
 
 const typed = new Typed('.typed',{
     strings: [
-        '<i>Developer And Technology Lover.</i>',
+        '<i>Software Developer And Technology Lover.</i>',
         "<i>let's work together..!</i>"],
     //stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
 	typeSpeed: 60, // Velocidad en mlisegundos para poner una letra,
