@@ -3,6 +3,10 @@
     background: #262626;
     
 }
+.typed,
+.cursor{
+    color: rgb(219, 236, 216);
+}
 
 .conten{
     display: flex;
